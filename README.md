@@ -1,6 +1,6 @@
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" align="right" width="400" />
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" align="right" width="300" />
 
-# Git Commit and GitHub Pull request Formatting Rules
+# Git Commit Formatting Rules
 > This is a guide to writte a Git commit message.
 
 ## Git commit message
@@ -71,5 +71,15 @@
 
 ```
 
+## How to write a multiple line git commit message from command line
 
+> Try the following to create a multi-line commit message:
+
+```
+git commit -m "This is the Git commit message subject" -m "- This is a Git commit message body line. 
+- Add a title to your commit after -m enclosed in quotes, then add the body of your comment after a second -m.
+- Press ENTER before closing the quotes to add a line break.
+- Repeat as needed.
+- Then close the quotes and hit ENTER twice to apply the commit."
+```
 
